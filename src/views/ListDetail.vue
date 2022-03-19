@@ -29,6 +29,14 @@
         </div>
       </b-col>
     </b-row>
+    <b-row class="px-5">
+      <b-col cols="12">
+        <h3 class="text-left">İlan Detayları</h3>
+      </b-col>
+      <b-col>
+        <p v-html="listDetail.text"></p>
+      </b-col>
+    </b-row>
   </div>
 </template>
 <script>
