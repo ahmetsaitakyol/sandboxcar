@@ -38,9 +38,6 @@ export default {
       type: Object
     }
   },
-  mounted () {
-    console.log(this.items)
-  },
   methods: {
     showSlide (key) {
       this.slide = key
